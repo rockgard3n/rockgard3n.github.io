@@ -11,3 +11,30 @@
       font-size: 3.5rem;
     }
   }
+
+.navbar > li > .dropdown-menu { background-color: #555555; }
+
+.navbar > li > .dropdown-menu a{   color: #fff;  }
+.navbar > li > .dropdown-menu a:hover{   color: #555555;  }
+
+
+.nav-link {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: rgb(172, 172, 172);
+}
+.nav-link:focus {
+    color: rgb(172, 172, 172);
+}
+
+.nav-link .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.bg-medium {
+    background-color: #d4d4d4;
+}
