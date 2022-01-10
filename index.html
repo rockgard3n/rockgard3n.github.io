@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
           <h4 class="text-white">About</h4>
-          <p class="text-muted">Liam, a Product Manager at EY, speacializes in leading products from concept-to-launch for a variety of clients in the financial services industry. Recognizing that an excelent PM is equiped with strong techincal fluency, Liam is engaged in MITs 32 week intensive Fullstack coding bootcamp to build on his existing knowledge earned through a double major in Mathematics and Finance from the College of William and Mary.</p>
+          <p class="text-muted">Liam, a Product Manager at EY, specializes in leading products from concept-to-launch for a variety of clients in the financial services industry. Recognizing that an excelent PM is equiped with strong techincal fluency, Liam is engaged in MITs 32 week intensive Fullstack coding bootcamp to build on his existing knowledge earned through a double major in Mathematics and Finance from the College of William and Mary.</p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
           <h4 class="text-white">Contact</h4>
@@ -98,18 +98,33 @@
           <div class="card shadow-sm mb-3">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                      <rect width="100%" height="100%" fill="#55595c"/>
+                      <image href="TrackShot.png" width="100%" height="275"/>
+                    </svg>
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">SFMTA Bus Tracker</h5>
+                        <p class="card-text">Currently in San Francisco and wondering where your bus is? Load up this site, select your route and see the live location of any SFMTA bus! This project was an interesting excercise in implementing multiple APIs, navigating external services, and utilizing asynchronous functions all to address a real world painpoint of many SF residents.</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="BusButton">Find your Bus!</button>
+
+                            <script type="text/javascript">
+                              document.getElementById("BusButton").onclick = function () {
+                                  window.open("https://rockgard3n.github.io/SFMTAtracker/", "_blank");
+                              };
+                            </script>
+
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="BusRepo">View Repository</button>
+
+                            <script type="text/javascript">
+                              document.getElementById("BusRepo").onclick = function () {
+                                  window.open("https://github.com/rockgard3n/SFMTAtracker", "_blank");
+                              };
+                            </script>
                         </div>
-                        <small class="text-muted">9 mins</small>
                     </div>
                 </div>
             </div>
@@ -127,20 +142,27 @@
               <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Citi Personal Loan Payments</h5>
+                        <p class="card-text">Served as the Product Owner for Personal Loan Payments.  Lead the product from concept-to-launch to enable hundreds of thousands of customers to seamless pay tens of millions of dollars worth of personal loans. Payment products are by their nature cross-functional as well as financially, technically and legally complex. Therefore, in order to ship a high-quality, safe and secure user experience I collaborated with other Product teams as well as a variety of other teams including: Design, UX Research, Development, Legal, and Retail. Additionally, I reduced payment processing time from 6 days to 1 day, drastically cut Citi’s costs by eliminating a third-party system, and helped increase personal loan enrollment by 30%.   
+                        </p>
                         <div class="d-flex justify-content-between align-items-center">
+                          
                             <div class="btn-group">
+                              <!--
                             <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                             <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            -->
                         </div>
-                        <small class="text-muted">9 mins</small>
+                        
                     </div>
                 </div>
               </div>
               <div class="col-md-4">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            </div>
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                  <rect width="100%" height="100%" fill="#55595c"/>
+                  <image href="PILshot.png" width="100%" height="272"/>
+                </svg>
+              </div>
               </div>
             </div>
           </div>

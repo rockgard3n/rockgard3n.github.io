@@ -23,6 +23,11 @@
     font-size: 1rem;
 }
 
+.float-end a{
+    color: #fff;
+    font-size: 1rem;
+}
+
 .nav-link:hover {
     color: rgb(172, 172, 172);
 }
