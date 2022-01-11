@@ -31,6 +31,9 @@
 .nav-link:hover {
     color: rgb(172, 172, 172);
 }
+.nav-link:visited {
+    color: #fff;
+}
 .nav-link:focus {
     color: rgb(172, 172, 172);
 }
@@ -97,3 +100,29 @@
 .footer {
     color: #fff;
 }
+
+.btn-xlg {
+    height: 75px;
+    width: 500px;
+    margin: 0px 20px 20px 0px;
+    font-size: 1.5em;
+}
+
+a:link {
+    color: #777;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #777;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #555555;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #555555;
+  }
