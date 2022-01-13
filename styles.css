@@ -130,10 +130,12 @@ a:link {
   /* did this to fix video for mobile */
   .vidcontainer {
     position: relative;
-    height: 100%;
+    width: 100%;
     padding-bottom: 56.25%;
+   
 
 }
+
 .video {
   position: absolute;
   top: 0;
@@ -143,9 +145,17 @@ a:link {
   border: 0;
   padding-right: 5%;
   padding-left: 5%;
+
+  
 }
 
 
 .album {
   padding: 3%;
+  max-width: 2000px;
+}
+
+.album-vid {
+  max-width: 1020px;
+  padding-bottom: 0%;
 }
